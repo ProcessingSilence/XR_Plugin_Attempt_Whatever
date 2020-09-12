@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Liam\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Liam\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_XR_Plugin_Attempt_Whatever.584454945.00" t="ExcludeRecursive" />
+    <e p="F:\UnityProjects\XR_Plugin_Attempt_Whatever" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ColorChanger.cs" t="Include" />
+        <e p="Samples" t="Include">
+          <e p="XR Plugin Management" t="Include">
+            <e p="3.2.13" t="Include">
+              <e p="Example XR Management implementation" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SampleBuildProcessor.cs" t="Include" />
+                  <e p="SampleMetadata.cs" t="Include" />
+                  <e p="SampleSettingsEditor.cs" t="Include" />
+                  <e p="Unity.XR.Management.Samples.Editor.asmdef" t="Include" />
+                </e>
+                <e p="SampleConstants.cs" t="Include" />
+                <e p="SampleLoader.cs" t="Include" />
+                <e p="SampleSettings.cs" t="Include" />
+                <e p="Unity.XR.Management.Samples.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Unity.XR.Management.Samples.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Samples.Editor.csproj" t="IncludeRecursive" />
+      <e p="XR_Plugin_Attempt_Whatever.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
