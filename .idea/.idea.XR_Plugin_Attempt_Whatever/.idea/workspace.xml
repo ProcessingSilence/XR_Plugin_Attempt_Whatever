@@ -9,25 +9,140 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="890">
+              <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+              <folding>
+                <marker date="1600036374976" expanded="false" signature="6:32" ph="..." />
+                <marker date="1600036374976" expanded="true" signature="148:18151" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
+                <marker date="1600036374976" expanded="true" signature="456:18149" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
+                <marker date="1600036374976" expanded="true" signature="604:1279" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
+                <marker date="1600036374976" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
+                <marker date="1600036374976" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
+                <marker date="1600036374976" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
+                <marker date="1600036374976" expanded="true" signature="1684:1803" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="1972:2093" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="2759:3066" ph="/*Sets rotational offset on controller ... */" />
+                <marker date="1600036374976" expanded="true" signature="5576:5796" ph="///Gets or sets the model transform that is used as the parent for the controller model. ... " />
+                <marker date="1600036374976" expanded="true" signature="7006:7123" ph="/// InteractionState type to hold current state for a given interaction. ... " />
+                <marker date="1600036374976" expanded="true" signature="7164:7599" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="8488:8682" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="8515:8672" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9043:9300" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9119:9290" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9343:9421" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9465:9543" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9592:9860" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9783:9850" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="9900:10478" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="10014:10468" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="10158:10454" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="10507:10553" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="10580:11177" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="10723:11167" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11219:11418" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11441:11935" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11483:11583" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11761:11829" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11866:11925" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="11981:13588" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="13616:14422" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="14540:15187" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="14706:14932" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="14766:14918" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="14949:15177" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="15008:15163" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="15401:16004" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="15453:15994" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="16114:16501" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="16662:17176" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="16717:17166" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="16833:17152" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="17366:17482" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="17492:17755" ph="///Play a haptic impulse on the controller if one is available ... " />
+                <marker date="1600036374976" expanded="true" signature="17826:18143" ph="{...}" />
+                <marker date="1600036374976" expanded="true" signature="18001:18107" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <folding>
+                <marker date="1600036790061" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600036790061" expanded="true" signature="163:394" ph="{...}" />
+                <marker date="1600036790061" expanded="true" signature="292:313" ph="{...}" />
+                <marker date="1600036790061" expanded="true" signature="371:392" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rotation</find>
+      <find>xisToPressThreshold</find>
+      <find>m_AxisToPressThreshold</find>
+      <find>Awake</find>
+      <find>deviceRotation</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>m_rotationOffset</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ColorChanger.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" />
+        <option value="$PROJECT_DIR$/Assets/PedestalMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,11 +196,12 @@
       <updated>1599860986600</updated>
       <workItem from="1599861000550" duration="5645000" />
       <workItem from="1599967623744" duration="63000" />
+      <workItem from="1600034329964" duration="2817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5708000" />
+    <option name="totallyTimeSpent" value="8525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -97,7 +213,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1400" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5097245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -168,6 +285,94 @@
             <marker date="1599868055455" expanded="true" signature="956:1042" ph="{...}" />
             <marker date="1599868055455" expanded="true" signature="1097:1183" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+          <folding>
+            <marker date="1600036374976" expanded="false" signature="6:32" ph="..." />
+            <marker date="1600036374976" expanded="true" signature="148:18151" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
+            <marker date="1600036374976" expanded="true" signature="456:18149" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
+            <marker date="1600036374976" expanded="true" signature="604:1279" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
+            <marker date="1600036374976" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
+            <marker date="1600036374976" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
+            <marker date="1600036374976" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
+            <marker date="1600036374976" expanded="true" signature="1684:1803" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="1972:2093" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="2759:3066" ph="/*Sets rotational offset on controller ... */" />
+            <marker date="1600036374976" expanded="true" signature="5576:5796" ph="///Gets or sets the model transform that is used as the parent for the controller model. ... " />
+            <marker date="1600036374976" expanded="true" signature="7006:7123" ph="/// InteractionState type to hold current state for a given interaction. ... " />
+            <marker date="1600036374976" expanded="true" signature="7164:7599" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="8488:8682" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="8515:8672" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9043:9300" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9119:9290" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9343:9421" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9465:9543" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9592:9860" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9783:9850" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="9900:10478" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="10014:10468" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="10158:10454" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="10507:10553" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="10580:11177" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="10723:11167" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11219:11418" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11441:11935" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11483:11583" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11761:11829" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11866:11925" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="11981:13588" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="13616:14422" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="14540:15187" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="14706:14932" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="14766:14918" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="14949:15177" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="15008:15163" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="15401:16004" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="15453:15994" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="16114:16501" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="16662:17176" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="16717:17166" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="16833:17152" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="17366:17482" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="17492:17755" ph="///Play a haptic impulse on the controller if one is available ... " />
+            <marker date="1600036374976" expanded="true" signature="17826:18143" ph="{...}" />
+            <marker date="1600036374976" expanded="true" signature="18001:18107" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <marker date="1600036790061" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600036790061" expanded="true" signature="163:394" ph="{...}" />
+            <marker date="1600036790061" expanded="true" signature="292:313" ph="{...}" />
+            <marker date="1600036790061" expanded="true" signature="371:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
         </state>
       </provider>
     </entry>
