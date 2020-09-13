@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
+            <state relative-caret-position="4112">
               <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
               <folding>
                 <marker date="1600036374976" expanded="false" signature="6:32" ph="..." />
@@ -73,22 +73,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="656">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <marker date="1600036790061" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600036790061" expanded="true" signature="163:394" ph="{...}" />
-                <marker date="1600036790061" expanded="true" signature="292:313" ph="{...}" />
-                <marker date="1600036790061" expanded="true" signature="371:392" ph="{...}" />
+                <marker date="1600039057202" expanded="false" signature="6:78" ph="..." />
+                <marker date="1600039057202" expanded="true" signature="163:1062" ph="{...}" />
+                <marker date="1600039057202" expanded="true" signature="396:483" ph="{...}" />
+                <marker date="1600039057202" expanded="true" signature="516:778" ph="{...}" />
+                <marker date="1600039057202" expanded="true" signature="560:772" ph="{...}" />
+                <marker date="1600039057202" expanded="true" signature="812:1060" ph="{...}" />
+                <marker date="1600039057202" expanded="true" signature="963:1016" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1315">
+              <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
@@ -114,9 +129,12 @@
       <find>xisToPressThreshold</find>
       <find>m_AxisToPressThreshold</find>
       <find>Awake</find>
+      <find>moveDown</find>
+      <find>attachtrans</find>
       <find>deviceRotation</find>
     </findStrings>
     <replaceStrings>
+      <replace>startCoroutine</replace>
       <replace>m_rotationOffset</replace>
     </replaceStrings>
   </component>
@@ -127,6 +145,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -134,8 +153,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ColorChanger.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" />
-        <option value="$PROJECT_DIR$/Assets/PedestalMove.cs" />
         <option value="$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt" />
+        <option value="$PROJECT_DIR$/Assets/PedestalMove.cs" />
       </list>
     </option>
   </component>
@@ -196,12 +215,12 @@
       <updated>1599860986600</updated>
       <workItem from="1599861000550" duration="5645000" />
       <workItem from="1599967623744" duration="63000" />
-      <workItem from="1600034329964" duration="2817000" />
+      <workItem from="1600034329964" duration="4718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8525000" />
+    <option name="totallyTimeSpent" value="10426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,15 +281,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <folding>
-            <element signature="e#0#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ColorChanger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -295,9 +305,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1315">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
+        <state relative-caret-position="4112">
           <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
           <folding>
             <marker date="1600036374976" expanded="false" signature="6:32" ph="..." />
@@ -358,21 +385,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="656">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <marker date="1600036790061" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600036790061" expanded="true" signature="163:394" ph="{...}" />
-            <marker date="1600036790061" expanded="true" signature="292:313" ph="{...}" />
-            <marker date="1600036790061" expanded="true" signature="371:392" ph="{...}" />
+            <marker date="1600039057202" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600039057202" expanded="true" signature="163:1062" ph="{...}" />
+            <marker date="1600039057202" expanded="true" signature="396:483" ph="{...}" />
+            <marker date="1600039057202" expanded="true" signature="516:778" ph="{...}" />
+            <marker date="1600039057202" expanded="true" signature="560:772" ph="{...}" />
+            <marker date="1600039057202" expanded="true" signature="812:1060" ph="{...}" />
+            <marker date="1600039057202" expanded="true" signature="963:1016" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
         </state>
       </provider>
     </entry>
