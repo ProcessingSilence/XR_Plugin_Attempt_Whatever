@@ -74,24 +74,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <marker date="1600039057202" expanded="false" signature="6:78" ph="..." />
-                <marker date="1600039057202" expanded="true" signature="163:1062" ph="{...}" />
-                <marker date="1600039057202" expanded="true" signature="396:483" ph="{...}" />
-                <marker date="1600039057202" expanded="true" signature="516:778" ph="{...}" />
-                <marker date="1600039057202" expanded="true" signature="560:772" ph="{...}" />
-                <marker date="1600039057202" expanded="true" signature="812:1060" ph="{...}" />
-                <marker date="1600039057202" expanded="true" signature="963:1016" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1315">
@@ -125,16 +107,18 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rotation</find>
       <find>xisToPressThreshold</find>
       <find>m_AxisToPressThreshold</find>
       <find>Awake</find>
       <find>moveDown</find>
       <find>attachtrans</find>
+      <find>StartMovingDown</find>
       <find>deviceRotation</find>
+      <find>rotation</find>
     </findStrings>
     <replaceStrings>
       <replace>startCoroutine</replace>
+      <replace>StartDelay</replace>
       <replace>m_rotationOffset</replace>
     </replaceStrings>
   </component>
@@ -142,11 +126,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -215,12 +197,12 @@
       <updated>1599860986600</updated>
       <workItem from="1599861000550" duration="5645000" />
       <workItem from="1599967623744" duration="63000" />
-      <workItem from="1600034329964" duration="4718000" />
+      <workItem from="1600034329964" duration="5463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10426000" />
+    <option name="totallyTimeSpent" value="11171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,13 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -312,13 +287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1315">
-          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#111#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -383,18 +355,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PedestalMove.cs">
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="406">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1315">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
           <folding>
-            <marker date="1600039057202" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600039057202" expanded="true" signature="163:1062" ph="{...}" />
-            <marker date="1600039057202" expanded="true" signature="396:483" ph="{...}" />
-            <marker date="1600039057202" expanded="true" signature="516:778" ph="{...}" />
-            <marker date="1600039057202" expanded="true" signature="560:772" ph="{...}" />
-            <marker date="1600039057202" expanded="true" signature="812:1060" ph="{...}" />
-            <marker date="1600039057202" expanded="true" signature="963:1016" ph="{...}" />
+            <element signature="e#0#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
