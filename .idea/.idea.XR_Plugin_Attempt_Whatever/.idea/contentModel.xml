@@ -34,7 +34,9 @@
           <e p="CubeTarget.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />
+          <e p="GoldenBall.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />
+          <e p="Instructions.cs" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
           <e p="TrailEnabler.cs" t="Include" />
         </e>

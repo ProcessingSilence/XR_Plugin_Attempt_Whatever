@@ -39,7 +39,7 @@ public class BetterBallSpawner : MonoBehaviour
             ballCollider.enabled = false;
             ballTrail.startWidth = ballScale.x;
         }
-        else
+        else if (ballCollider)
         {
             ballCollider.enabled = true;
         }
