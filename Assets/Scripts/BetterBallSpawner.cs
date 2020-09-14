@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class BallSpawner : MonoBehaviour
+public class BetterBallSpawner : MonoBehaviour
 {
     public GameObject ball;
-    private GameObject currentBall;
+    private Transform currentBall;
 
     public Transform spawnPoint;
     
@@ -31,16 +31,25 @@ public class BallSpawner : MonoBehaviour
     {
         if (buttonHeld)
         {
-            var ballScale = currentBall.transform.localScale;
-            currentBall.transform.localScale = Vector3.Lerp(ballScale, ballScale + Vector3.one * maxScale/5, Time.deltaTime * 2);
+            var ballScale = currentBall.localScale;
+            float distance = Vector3.Distance(currentBall.position, transform.position);
+            currentBall.localScale = (Vector3.one * distance) - new Vector3(0.95f, 0.95f, 0.95f);
+
             ballTrail.startWidth = ballScale.x;
         }
 
         if (currentBall)
         {
-            if (currentBall.transform.localScale.x > maxScale)
+            // Min
+            if (currentBall.localScale.x < 0.01f)
             {
-                currentBall.transform.localScale = Vector3.one * maxScale; 
+                currentBall.localScale = Vector3.one * 0.01f;
+            }
+            
+            // Max
+            if (currentBall.localScale.x > maxScale)
+            {
+                currentBall.localScale = Vector3.one * maxScale; 
             }
         }
 
@@ -50,8 +59,8 @@ public class BallSpawner : MonoBehaviour
     private void SpawnBall(XRBaseInteractor interactable)
     {
         buttonHeld = true;
-        currentBall = Instantiate(ball, spawnPoint.position, Quaternion.identity);
-        ballTrail = currentBall.GetComponent<TrailRenderer>();
+        currentBall = Instantiate(ball, spawnPoint.position, Quaternion.identity).transform;
+        ballTrail = currentBall.gameObject.GetComponent<TrailRenderer>();
     }
 
     private void RestartSpawner(XRBaseInteractor interactable)

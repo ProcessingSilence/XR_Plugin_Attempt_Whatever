@@ -60,6 +60,7 @@ public class Explosive : MonoBehaviour
             if (hitRB && !hitRB.gameObject.CompareTag("Bat"))
             {
                 hitRB.isKinematic = false;
+                hitRB.useGravity = true;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
             }
         }

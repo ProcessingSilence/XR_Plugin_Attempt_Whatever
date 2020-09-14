@@ -16,18 +16,39 @@
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="624">
-                    <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+                  <state relative-caret-position="320">
+                    <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
                     <folding>
-                      <marker date="1600051066707" expanded="false" signature="6:78" ph="..." />
-                      <marker date="1600051066707" expanded="true" signature="162:1624" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="461:702" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="760:1270" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="790:1050" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="1076:1263" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="1149:1253" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="1334:1518" ph="{...}" />
-                      <marker date="1600051066707" expanded="true" signature="1582:1622" ph="{...}" />
+                      <marker date="1600055326551" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1600055326551" expanded="true" signature="162:1664" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="500:741" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="799:1309" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="829:1089" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="1115:1302" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="1188:1292" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="1373:1558" ph="{...}" />
+                      <marker date="1600055326551" expanded="true" signature="1622:1662" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="512">
+                    <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+                    <folding>
+                      <marker date="1600056635984" expanded="false" signature="6:120" ph="..." />
+                      <marker date="1600056635984" expanded="true" signature="168:1875" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="505:746" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="804:1499" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="834:1108" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="1134:1492" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="1213:1303" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="1388:1482" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="1563:1769" ph="{...}" />
+                      <marker date="1600056635984" expanded="true" signature="1833:1873" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -37,7 +58,7 @@
               <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRGrabInteractable.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="-2759">
-                    <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+                    <caret line="40" selection-start-line="40" selection-end-line="40" />
                   </state>
                 </provider>
               </entry>
@@ -46,7 +67,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/GravityEnabler.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="352">
-                    <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                    <caret line="24" selection-start-line="24" selection-end-line="24" />
                     <folding>
                       <marker date="1600048532397" expanded="false" signature="6:78" ph="..." />
                       <marker date="1600048532397" expanded="true" signature="123:495" ph="{...}" />
@@ -59,25 +80,25 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/Explosive.cs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="544">
-                    <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+                  <state relative-caret-position="346">
+                    <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
                     <folding>
-                      <marker date="1600052719562" expanded="true" signature="6:78" ph="..." />
-                      <marker date="1600052719562" expanded="true" signature="118:2168" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="446:612" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="670:937" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="729:850" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="877:931" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="989:1128" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="1069:1122" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="1157:1678" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="1304:1581" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="1392:1571" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="1700:1986" ph="{...}" />
-                      <marker date="1600052719562" expanded="true" signature="2017:2166" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="6:78" ph="..." />
+                      <marker date="1600054638457" expanded="true" signature="118:2248" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="446:612" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="670:937" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="729:850" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="877:931" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="989:1128" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="1069:1122" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="1157:1758" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="1304:1661" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="1431:1651" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="1780:2066" ph="{...}" />
+                      <marker date="1600054638457" expanded="true" signature="2097:2246" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -90,46 +111,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="310" column="61" selection-start-line="310" selection-start-column="61" selection-end-line="310" selection-end-column="61" />
-              <folding>
-                <marker date="1586289529000" expanded="false" signature="6:32" ph="..." />
-                <marker date="1586289529000" expanded="true" signature="148:17720" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
-                <marker date="1586289529000" expanded="true" signature="456:17718" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
-                <marker date="1586289529000" expanded="true" signature="604:1279" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
-                <marker date="1586289529000" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
-                <marker date="1586289529000" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
-                <marker date="1586289529000" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
-                <marker date="1586289529000" expanded="true" signature="1684:1803" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="1972:2093" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="13132:13157" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="13185:13991" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14109:14756" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14275:14501" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14335:14487" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14518:14746" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14577:14732" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="14970:15573" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="15022:15563" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="15683:16070" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="16231:16745" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="16286:16735" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="16402:16721" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="16935:17051" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="17061:17324" ph="///Play a haptic impulse on the controller if one is available ... " />
-                <marker date="1586289529000" expanded="true" signature="17395:17712" ph="{...}" />
-                <marker date="1586289529000" expanded="true" signature="17570:17676" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,6 +118,68 @@
               <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
               <folding>
                 <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="929">
+              <caret line="310" column="89" selection-start-line="310" selection-start-column="89" selection-end-line="310" selection-end-column="89" />
+              <folding>
+                <marker date="1600055255898" expanded="false" signature="6:32" ph="..." />
+                <marker date="1600055255898" expanded="true" signature="148:17751" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
+                <marker date="1600055255898" expanded="true" signature="456:17749" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
+                <marker date="1600055255898" expanded="true" signature="604:1279" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
+                <marker date="1600055255898" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
+                <marker date="1600055255898" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
+                <marker date="1600055255898" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
+                <marker date="1600055255898" expanded="true" signature="1684:1803" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="1972:2093" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="5180:5400" ph="///Gets or sets the model transform that is used as the parent for the controller model. ... " />
+                <marker date="1600055255898" expanded="true" signature="6610:6727" ph="/// InteractionState type to hold current state for a given interaction. ... " />
+                <marker date="1600055255898" expanded="true" signature="6768:7203" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="8092:8286" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="8119:8276" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="8647:8904" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="8723:8894" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="8947:9025" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9069:9147" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9196:9464" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9387:9454" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9504:10082" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9618:10072" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="9762:10058" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="10111:10157" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="10184:10781" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="10327:10771" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="10823:11022" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="11045:11539" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="11087:11187" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="11365:11433" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="11470:11529" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="11585:13188" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="13216:14022" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="14140:14787" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="14306:14532" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="14366:14518" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="14549:14777" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="14608:14763" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="15001:15604" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="15053:15594" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="15714:16101" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="16262:16776" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="16317:16766" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="16433:16752" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="16966:17082" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="17092:17355" ph="///Play a haptic impulse on the controller if one is available ... " />
+                <marker date="1600055255898" expanded="true" signature="17426:17743" ph="{...}" />
+                <marker date="1600055255898" expanded="true" signature="17601:17707" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,7 +216,7 @@
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -187,18 +230,20 @@
       <find>Awake</find>
       <find>moveDown</find>
       <find>StartMovingDown</find>
-      <find>attachtrans</find>
       <find>maxScale</find>
       <find>deviceRotation</find>
-      <find>model</find>
       <find>rotation</find>
+      <find>/*</find>
+      <find>model</find>
+      <find>trans</find>
+      <find>attachtrans</find>
     </findStrings>
     <replaceStrings>
       <replace>StartDelay</replace>
-      <replace>startCoroutine</replace>
       <replace>max</replace>
       <replace>m_rotationOffset</replace>
       <replace>hitboxObj</replace>
+      <replace>startCoroutine</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -207,6 +252,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosive.cs" root0="FORCE_HIGHLIGHTING" />
@@ -224,14 +270,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GravityEnabler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Explosive.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -287,12 +335,12 @@
       <updated>1599860986600</updated>
       <workItem from="1599861000550" duration="5645000" />
       <workItem from="1599967623744" duration="63000" />
-      <workItem from="1600034329964" duration="15872000" />
+      <workItem from="1600034329964" duration="18180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21580000" />
+    <option name="totallyTimeSpent" value="23888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +352,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5097245" />
@@ -384,16 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1315">
-          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -433,80 +471,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <marker date="1600051066707" expanded="false" signature="6:78" ph="..." />
-            <marker date="1600051066707" expanded="true" signature="162:1624" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="461:702" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="760:1270" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="790:1050" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="1076:1263" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="1149:1253" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="1334:1518" ph="{...}" />
-            <marker date="1600051066707" expanded="true" signature="1582:1622" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRGrabInteractable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2759">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="310" column="61" selection-start-line="310" selection-start-column="61" selection-end-line="310" selection-end-column="61" />
-          <folding>
-            <marker date="1586289529000" expanded="false" signature="6:32" ph="..." />
-            <marker date="1586289529000" expanded="true" signature="148:17720" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
-            <marker date="1586289529000" expanded="true" signature="456:17718" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
-            <marker date="1586289529000" expanded="true" signature="604:1279" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
-            <marker date="1586289529000" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
-            <marker date="1586289529000" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
-            <marker date="1586289529000" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
-            <marker date="1586289529000" expanded="true" signature="1684:1803" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="1972:2093" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="13132:13157" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="13185:13991" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14109:14756" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14275:14501" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14335:14487" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14518:14746" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14577:14732" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="14970:15573" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="15022:15563" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="15683:16070" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="16231:16745" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="16286:16735" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="16402:16721" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="16935:17051" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="17061:17324" ph="///Play a haptic impulse on the controller if one is available ... " />
-            <marker date="1586289529000" expanded="true" signature="17395:17712" ph="{...}" />
-            <marker date="1586289529000" expanded="true" signature="17570:17676" ph="{...}" />
-          </folding>
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GravityEnabler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <marker date="1600048532397" expanded="false" signature="6:78" ph="..." />
             <marker date="1600048532397" expanded="true" signature="123:495" ph="{...}" />
@@ -520,22 +502,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Explosive.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="346">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
-            <marker date="1600052719562" expanded="true" signature="6:78" ph="..." />
-            <marker date="1600052719562" expanded="true" signature="118:2168" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="446:612" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="670:937" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="729:850" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="877:931" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="989:1128" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="1069:1122" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="1157:1678" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="1304:1581" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="1392:1571" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="1700:1986" ph="{...}" />
-            <marker date="1600052719562" expanded="true" signature="2017:2166" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="6:78" ph="..." />
+            <marker date="1600054638457" expanded="true" signature="118:2248" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="446:612" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="670:937" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="729:850" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="877:931" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="989:1128" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="1069:1122" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="1157:1758" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="1304:1661" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="1431:1651" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="1780:2066" ph="{...}" />
+            <marker date="1600054638457" expanded="true" signature="2097:2246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1315">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoolerBallSpawner1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="929">
+          <caret line="310" column="89" selection-start-line="310" selection-start-column="89" selection-end-line="310" selection-end-column="89" />
+          <folding>
+            <marker date="1600055255898" expanded="false" signature="6:32" ph="..." />
+            <marker date="1600055255898" expanded="true" signature="148:17751" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="155:340" ph="/// XRController MonoBehaviour that interprets InputSystem events into  ... " />
+            <marker date="1600055255898" expanded="true" signature="456:17749" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="471:573" ph="/// The update type being used by the tracked pose driver ... " />
+            <marker date="1600055255898" expanded="true" signature="604:1279" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="627:950" ph="/// Sample input at both update, and directly before rendering. For smooth head pose tracking,  ... " />
+            <marker date="1600055255898" expanded="true" signature="998:1110" ph="/// Only sample input during the update phase of the frame. ... " />
+            <marker date="1600055255898" expanded="true" signature="1143:1243" ph="/// Only sample input directly before rendering ... " />
+            <marker date="1600055255898" expanded="true" signature="1537:1639" ph="/// The update type being used by the tracked pose driver ... " />
+            <marker date="1600055255898" expanded="true" signature="1684:1803" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="1972:2093" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="5180:5400" ph="///Gets or sets the model transform that is used as the parent for the controller model. ... " />
+            <marker date="1600055255898" expanded="true" signature="6610:6727" ph="/// InteractionState type to hold current state for a given interaction. ... " />
+            <marker date="1600055255898" expanded="true" signature="6768:7203" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="8092:8286" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="8119:8276" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="8647:8904" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="8723:8894" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="8947:9025" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9069:9147" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9196:9464" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9387:9454" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9504:10082" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9618:10072" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="9762:10058" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="10111:10157" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="10184:10781" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="10327:10771" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="10823:11022" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="11045:11539" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="11087:11187" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="11365:11433" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="11470:11529" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="11585:13188" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="13216:14022" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="14140:14787" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="14306:14532" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="14366:14518" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="14549:14777" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="14608:14763" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="15001:15604" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="15053:15594" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="15714:16101" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="16262:16776" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="16317:16766" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="16433:16752" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="16966:17082" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="17092:17355" ph="///Play a haptic impulse on the controller if one is available ... " />
+            <marker date="1600055255898" expanded="true" signature="17426:17743" ph="{...}" />
+            <marker date="1600055255898" expanded="true" signature="17601:17707" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <marker date="1600055326551" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600055326551" expanded="true" signature="162:1664" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="500:741" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="799:1309" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="829:1089" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="1115:1302" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="1373:1558" ph="{...}" />
+            <marker date="1600055326551" expanded="true" signature="1622:1662" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BetterBallSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding>
+            <marker date="1600056635984" expanded="false" signature="6:120" ph="..." />
+            <marker date="1600056635984" expanded="true" signature="168:1875" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="505:746" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="804:1499" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="834:1108" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="1134:1492" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="1213:1303" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="1388:1482" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="1563:1769" ph="{...}" />
+            <marker date="1600056635984" expanded="true" signature="1833:1873" ph="{...}" />
           </folding>
         </state>
       </provider>
