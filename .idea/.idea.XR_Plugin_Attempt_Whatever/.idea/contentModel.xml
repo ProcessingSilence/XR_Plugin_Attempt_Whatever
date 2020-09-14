@@ -31,6 +31,7 @@
           <e p="BallPosition.cs" t="Include" />
           <e p="BallSpawner.cs" t="Include" />
           <e p="BetterBallSpawner.cs" t="Include" />
+          <e p="CubeTarget.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
           <e p="GameStats.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />

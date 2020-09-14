@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Explosive
   - Bat
+  - GameStats
   layers:
   - Default
   - TransparentFX

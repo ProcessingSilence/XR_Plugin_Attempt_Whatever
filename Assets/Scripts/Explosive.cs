@@ -81,6 +81,7 @@ public class Explosive : MonoBehaviour
             {
                 hitRB.isKinematic = false;
                 hitRB.useGravity = true;
+                hitRB.GetComponent<BoxCollider>().enabled = false;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
             }
         }

@@ -11,6 +11,9 @@ public class GameStats : MonoBehaviour
     public TextMesh tfarthestBallDist;
     public float farthestBallDist;
     [HideInInspector] public bool changeBallText;
+
+    public TextMesh tboxesDestroyed;
+    public int boxesDestroyed;
     
     public Rigidbody BatRB;
 
@@ -42,5 +45,7 @@ public class GameStats : MonoBehaviour
             changeBallText = false;
             tfarthestBallDist.text = "Farthest ball: " + farthestBallDist;
         }
+
+        tboxesDestroyed.text = "Boxes destroyed: " + boxesDestroyed;
     }
 }

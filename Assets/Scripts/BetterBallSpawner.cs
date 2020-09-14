@@ -17,6 +17,8 @@ public class BetterBallSpawner : MonoBehaviour
     public float maxScale;
     
     private bool buttonHeld;
+
+    private SphereCollider ballCollider;
     // Start is called before the first frame update
     void Awake()
     {
@@ -34,8 +36,12 @@ public class BetterBallSpawner : MonoBehaviour
             var ballScale = currentBall.localScale;
             float distance = Vector3.Distance(currentBall.position, transform.position);
             currentBall.localScale = (Vector3.one * distance) - new Vector3(0.95f, 0.95f, 0.95f);
-
+            ballCollider.enabled = false;
             ballTrail.startWidth = ballScale.x;
+        }
+        else
+        {
+            ballCollider.enabled = true;
         }
 
         if (currentBall)
@@ -60,6 +66,8 @@ public class BetterBallSpawner : MonoBehaviour
     {
         buttonHeld = true;
         currentBall = Instantiate(ball, spawnPoint.position, Quaternion.identity).transform;
+        ballCollider = currentBall.GetComponent<SphereCollider>();
+        ballCollider.enabled = false;
         ballTrail = currentBall.gameObject.GetComponent<TrailRenderer>();
     }
 

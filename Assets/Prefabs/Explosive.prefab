@@ -82,9 +82,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startProcess: 0
   model: {fileID: 5041847019074481334}
-  explosiveRadius: 50
-  force: 50
-  fallDestroy: -10
+  explosiveRadius: 4
+  force: 30
+  fallDestroy: -15
   particleSizeRange:
   - 2
   - 16

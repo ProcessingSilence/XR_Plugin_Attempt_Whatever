@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class BallSpawner : MonoBehaviour
 {
     public GameObject ball;
+    public SphereCollider ballCollider;
     private GameObject currentBall;
 
     public Transform spawnPoint;
@@ -34,6 +35,11 @@ public class BallSpawner : MonoBehaviour
             var ballScale = currentBall.transform.localScale;
             currentBall.transform.localScale = Vector3.Lerp(ballScale, ballScale + Vector3.one * maxScale/5, Time.deltaTime * 2);
             ballTrail.startWidth = ballScale.x;
+            ballCollider.enabled = false;
+        }
+        else
+        {
+            ballCollider.enabled = true;
         }
 
         if (currentBall)
@@ -50,7 +56,14 @@ public class BallSpawner : MonoBehaviour
     private void SpawnBall(XRBaseInteractor interactable)
     {
         buttonHeld = true;
+        if (currentBall)
+        {
+            ballCollider.enabled = true;
+        }
+
         currentBall = Instantiate(ball, spawnPoint.position, Quaternion.identity);
+        ballCollider = currentBall.GetComponent<SphereCollider>();
+        ballCollider.enabled = false;
         ballTrail = currentBall.GetComponent<TrailRenderer>();
     }
 
