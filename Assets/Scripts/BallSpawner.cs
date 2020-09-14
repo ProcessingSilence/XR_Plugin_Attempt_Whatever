@@ -7,13 +7,13 @@ public class BallSpawner : MonoBehaviour
 {
     public GameObject ball;
     private GameObject currentBall;
+    private TrailRenderer ballTrail;
     
     private XRGrabInteractable _XRGrabInteractable_script;
 
     public float maxScale;
     
     private bool buttonHeld;
-    private bool startedCoroutine;
     // Start is called before the first frame update
     void Awake()
     {
@@ -26,15 +26,11 @@ public class BallSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (buttonHeld && startedCoroutine == false && currentBall.transform.localScale.x <= maxScale)
-        {
-            startedCoroutine = true;
-        }
-
         if (buttonHeld)
         {
             var ballScale = currentBall.transform.localScale;
-            currentBall.transform.localScale = Vector3.Lerp(ballScale, ballScale + Vector3.one * maxScale/5, Time.deltaTime);
+            currentBall.transform.localScale = Vector3.Lerp(ballScale, ballScale + Vector3.one * maxScale/5, Time.deltaTime * 2);
+            ballTrail.startWidth = ballScale.x;
         }
         
         if (currentBall.transform.localScale.x > maxScale)
@@ -48,11 +44,11 @@ public class BallSpawner : MonoBehaviour
     {
         buttonHeld = true;
         currentBall = Instantiate(ball, transform.position, Quaternion.identity);
+        ballTrail = currentBall.GetComponent<TrailRenderer>();
     }
 
     private void RestartSpawner(XRBaseInteractor interactable)
     {
         buttonHeld = false;
-        startedCoroutine = false;
     }
 }
