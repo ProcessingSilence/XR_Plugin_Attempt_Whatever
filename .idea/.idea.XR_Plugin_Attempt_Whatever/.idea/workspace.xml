@@ -8,6 +8,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="928">
+                    <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+                    <folding>
+                      <marker date="1600046280539" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1600046280539" expanded="true" signature="162:1826" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="459:700" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="758:1123" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="867:965" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="1025:1117" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="1187:1308" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="1372:1446" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="1480:1824" ph="{...}" />
+                      <marker date="1600046280539" expanded="true" signature="1571:1818" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -73,13 +104,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1315">
               <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
               <folding>
                 <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
+                <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
+                <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/ColorChanger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1599868055455" expanded="false" signature="6:60" ph="..." />
+                <marker date="1599868055455" expanded="true" signature="103:1185" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="284:733" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="443:503" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="542:606" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="763:901" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="956:1042" ph="{...}" />
+                <marker date="1599868055455" expanded="true" signature="1097:1183" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,15 +178,17 @@
       <find>m_AxisToPressThreshold</find>
       <find>Awake</find>
       <find>moveDown</find>
-      <find>attachtrans</find>
       <find>StartMovingDown</find>
-      <find>deviceRotation</find>
       <find>rotation</find>
+      <find>attachtrans</find>
+      <find>deviceRotation</find>
+      <find>maxScale</find>
     </findStrings>
     <replaceStrings>
-      <replace>startCoroutine</replace>
       <replace>StartDelay</replace>
+      <replace>startCoroutine</replace>
       <replace>m_rotationOffset</replace>
+      <replace>max</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -127,8 +196,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TutorialScenes/ColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -137,10 +209,12 @@
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" />
         <option value="$PROJECT_DIR$/Assets/TutorialScenes/README_PROF.txt" />
         <option value="$PROJECT_DIR$/Assets/PedestalMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1400" />
@@ -197,12 +271,12 @@
       <updated>1599860986600</updated>
       <workItem from="1599861000550" duration="5645000" />
       <workItem from="1599967623744" duration="63000" />
-      <workItem from="1600034329964" duration="5463000" />
+      <workItem from="1600034329964" duration="8885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11171000" />
+    <option name="totallyTimeSpent" value="14593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,7 +288,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1400" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1400" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5097245" />
@@ -368,6 +442,57 @@
           <caret line="141" column="40" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="40" />
           <folding>
             <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PedestalMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <marker date="1600040215724" expanded="false" signature="6:120" ph="..." />
+            <marker date="1600040215724" expanded="true" signature="163:1070" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="398:487" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="520:786" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="566:780" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="820:1068" ph="{...}" />
+            <marker date="1600040215724" expanded="true" signature="971:1024" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TutorialScenes/ColorChanger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1599868055455" expanded="false" signature="6:60" ph="..." />
+            <marker date="1599868055455" expanded="true" signature="103:1185" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="284:733" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="443:503" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="542:606" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="763:901" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="956:1042" ph="{...}" />
+            <marker date="1599868055455" expanded="true" signature="1097:1183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+          <folding>
+            <marker date="1600046280539" expanded="false" signature="6:78" ph="..." />
+            <marker date="1600046280539" expanded="true" signature="162:1826" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="459:700" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="758:1123" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="867:965" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="1025:1117" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="1187:1308" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="1372:1446" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="1480:1824" ph="{...}" />
+            <marker date="1600046280539" expanded="true" signature="1571:1818" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -25,6 +25,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BallSpawner.cs" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
         </e>
         <e p="TutorialScenes" t="Include">
