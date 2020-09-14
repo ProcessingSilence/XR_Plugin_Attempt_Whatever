@@ -32,11 +32,15 @@ public class BallSpawner : MonoBehaviour
             currentBall.transform.localScale = Vector3.Lerp(ballScale, ballScale + Vector3.one * maxScale/5, Time.deltaTime * 2);
             ballTrail.startWidth = ballScale.x;
         }
-        
-        if (currentBall.transform.localScale.x > maxScale)
+
+        if (currentBall)
         {
-            currentBall.transform.localScale = Vector3.one * maxScale; 
+            if (currentBall.transform.localScale.x > maxScale)
+            {
+                currentBall.transform.localScale = Vector3.one * maxScale; 
+            }
         }
+
     }
 
     
