@@ -57,8 +57,9 @@ public class Explosive : MonoBehaviour
         foreach (Collider hit in hitColliders)
         {
             var hitRB = hit.GetComponent<Rigidbody>();
-            if (hitRB)
+            if (hitRB && !hitRB.gameObject.CompareTag("Bat"))
             {
+                hitRB.isKinematic = false;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
             }
         }
@@ -77,7 +78,7 @@ public class Explosive : MonoBehaviour
         
         destroyTrail = true;
         _sphereCollider.enabled = false;
-        rb.isKinematic = true;
+        Destroy(rb);
     }
 
     void SmoothDestroyTrail()
