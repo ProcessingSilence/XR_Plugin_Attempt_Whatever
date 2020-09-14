@@ -6,7 +6,9 @@
     <e p="F:\UnityProjects\XR_Plugin_Attempt_Whatever" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BetterBallSpawner.cs" t="Include" />
+        <e p="Graphics" t="Include">
+          <e p="Readme(PublicDomain).txt" t="Include" />
+        </e>
         <e p="Samples" t="Include">
           <e p="XR Plugin Management" t="Include">
             <e p="3.2.13" t="Include">
@@ -26,10 +28,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BallPosition.cs" t="Include" />
           <e p="BallSpawner.cs" t="Include" />
+          <e p="BetterBallSpawner.cs" t="Include" />
           <e p="Explosive.cs" t="Include" />
+          <e p="GameStats.cs" t="Include" />
           <e p="GravityEnabler.cs" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
+          <e p="TrailEnabler.cs" t="Include" />
         </e>
         <e p="TutorialScenes" t="Include">
           <e p="ColorChanger.cs" t="Include" />

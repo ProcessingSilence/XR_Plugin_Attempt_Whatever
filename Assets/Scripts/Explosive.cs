@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Explosive : MonoBehaviour
 {
-    private bool startProcess;
+    public bool startProcess;
     private bool startExplosion;
     private bool destroyTrail;
 
@@ -20,6 +20,7 @@ public class Explosive : MonoBehaviour
     
     public float explosiveRadius;
     public float force;
+    public float fallDestroy;
 
     public float[] particleSizeRange;
 
@@ -38,6 +39,11 @@ public class Explosive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < fallDestroy)
+        {
+            startProcess = true;
+        }
+
         if (!startProcess)
         {
             explosionLight.intensity = transform.localScale.x;
@@ -78,7 +84,7 @@ public class Explosive : MonoBehaviour
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
             }
         }
-        
+        Destroy(rb);       
         yield return new WaitForSecondsRealtime(3f);
         Destroy(gameObject);
     }

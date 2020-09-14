@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1213801130409067273}
   - component: {fileID: 1213801130409067318}
   - component: {fileID: 1322666876862118369}
+  - component: {fileID: 5893683930044058774}
   - component: {fileID: 1213801130409067317}
   - component: {fileID: 301974005617464632}
   - component: {fileID: 5058670184531792372}
@@ -79,13 +80,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314906adfd15d7d46b234297b7615c04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startProcess: 0
   model: {fileID: 5041847019074481334}
   explosiveRadius: 50
   force: 50
+  fallDestroy: -10
   particleSizeRange:
   - 2
   - 16
   explosionLight: {fileID: 2175086106961554583}
+--- !u!114 &5893683930044058774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213801130409067272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c445615d6b8fc40a49b4d521e91184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  model: {fileID: 5041847019074481334}
 --- !u!96 &1213801130409067317
 TrailRenderer:
   serializedVersion: 2
@@ -5220,7 +5236,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.5330188, g: 1, b: 0.98168707, a: 1}
   m_Intensity: 1
-  m_Range: 10
+  m_Range: 0
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
