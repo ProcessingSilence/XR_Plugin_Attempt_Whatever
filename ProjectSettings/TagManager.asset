@@ -9,6 +9,7 @@ TagManager:
   - GameStats
   - Instructions
   - Timer
+  - GoldenBall
   layers:
   - Default
   - TransparentFX
