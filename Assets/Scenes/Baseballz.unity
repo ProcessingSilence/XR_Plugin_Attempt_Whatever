@@ -695,7 +695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403217731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 50, z: -9.6}
+  m_LocalPosition: {x: 0, y: 50, z: 68.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1114760630}
@@ -715,7 +715,7 @@ TextMesh:
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
-  m_TabSize: 4
+  m_TabSize: 24
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
@@ -1822,7 +1822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758237813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 25, z: -28.7}
+  m_LocalPosition: {x: 0, y: 25, z: 17.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1114760630}
@@ -2583,11 +2583,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1032170936}
   - component: {fileID: 1032170937}
+  - component: {fileID: 1032170942}
+  - component: {fileID: 1032170941}
   - component: {fileID: 1032170938}
   - component: {fileID: 1032170939}
   - component: {fileID: 1032170940}
-  - component: {fileID: 1032170942}
-  - component: {fileID: 1032170941}
   - component: {fileID: 1032170943}
   - component: {fileID: 1032170944}
   m_Layer: 8

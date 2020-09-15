@@ -108,16 +108,16 @@ public class Explosive : MonoBehaviour
             if (!hit.gameObject.CompareTag("GoldenBall") || !hit.gameObject.CompareTag("Bat"))
             {
                 var hitRB = hit.GetComponent<Rigidbody>();
-
                 hitRB.isKinematic = false;
                 hitRB.useGravity = true;
-                hitRB.GetComponent<BoxCollider>().enabled = false;
-                hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
-                _audioSource.clip = explosionSound;
-                _audioSource.Play();
-                
+                var hitCollider = hitRB.GetComponent<BoxCollider>();
+                if (hitCollider)
+                    hitCollider.enabled = false;
+                hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);              
             }
         }                 
+        _audioSource.clip = explosionSound;
+        _audioSource.Play();
         Destroy(rb);       
         yield return new WaitForSecondsRealtime(3f);
         Destroy(gameObject);
