@@ -17,10 +17,10 @@ public class GameStats : MonoBehaviour
     
     public Rigidbody BatRB;
 
-
     // Start is called before the first frame update
     void Awake()
     {
+
         thardestSwing.text = "Hardest bat swing: " + hardestSwing;
         tfarthestBallDist.text = "Farthest ball: " + farthestBallDist;
     }
@@ -29,6 +29,8 @@ public class GameStats : MonoBehaviour
     void Update()
     {
         HardestSwing();
+        FarthestBall();
+        BoxesDestroyed();
     }
 
     void HardestSwing()
@@ -39,13 +41,19 @@ public class GameStats : MonoBehaviour
             hardestSwing = currentVelocity;
             thardestSwing.text = "Hardest bat swing: " + hardestSwing;
         }
+    }
 
+    void FarthestBall()
+    {
         if (changeBallText)
         {
             changeBallText = false;
             tfarthestBallDist.text = "Farthest ball: " + farthestBallDist;
         }
+    }
 
+    void BoxesDestroyed()
+    {
         tboxesDestroyed.text = "Boxes destroyed: " + boxesDestroyed;
     }
 }

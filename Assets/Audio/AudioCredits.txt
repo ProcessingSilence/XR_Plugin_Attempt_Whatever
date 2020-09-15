@@ -1,0 +1,13 @@
+Bat Audio made by cutting, merging, and changing speed of these 3 sounds with Audacity:
+https://freesound.org/people/adcbicycle/sounds/13921/
+https://freesound.org/people/garionek/sounds/446013/
+https://freesound.org/people/Ev-Dawg/sounds/336225/
+
+Explosion:
+https://freesound.org/people/Nbs%20Dark/sounds/94185/
+
+Score, edited with audacity to turn mouseclick to scoresound
+https://freesound.org/people/garionek/sounds/446013/
+
+Ding
+https://freesound.org/people/suzenako/sounds/320905/

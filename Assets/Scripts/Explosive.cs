@@ -7,6 +7,7 @@ public class Explosive : MonoBehaviour
     public bool startProcess;
     private bool startExplosion;
     private bool destroyTrail;
+    private bool playSoundAgain;
 
     public GameObject model;
 
@@ -25,10 +26,15 @@ public class Explosive : MonoBehaviour
     public float[] particleSizeRange;
 
     public Light explosionLight;
-
+    
+    public AudioClip explosionSound;
+    public AudioClip heavyBatHit;
+    public AudioClip batHit;
+    private AudioSource _audioSource;
 
     void Awake()
     {
+        _audioSource = GetComponent<AudioSource>();
         _sphereCollider = GetComponent<SphereCollider>();
         rb = GetComponent<Rigidbody>();
         _trailRenderer = GetComponent<TrailRenderer>();
@@ -65,9 +71,31 @@ public class Explosive : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        if (other.gameObject.CompareTag("Bat") && playSoundAgain == false)
+        {
+            playSoundAgain = true;
+            if (transform.localScale.x >= 0.7f)
+            {
+                _audioSource.clip = heavyBatHit;
+            }
+            else
+            {
+                _audioSource.clip = batHit;
+            }
+            _audioSource.Play();
+            
+        }
         if (!other.gameObject.CompareTag("Bat") && startProcess == false)
         {
             startProcess = true;
+        }
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Bat") && playSoundAgain)
+        {
+            playSoundAgain = false;
         }
     }
 
@@ -83,6 +111,8 @@ public class Explosive : MonoBehaviour
                 hitRB.useGravity = true;
                 hitRB.GetComponent<BoxCollider>().enabled = false;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
+                _audioSource.clip = explosionSound;
+                _audioSource.Play();
             }
         }
         Destroy(rb);       
