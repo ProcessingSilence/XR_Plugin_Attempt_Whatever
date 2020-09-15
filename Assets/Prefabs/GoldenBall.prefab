@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2418113003728957342}
   - component: {fileID: 3847840479286622611}
   - component: {fileID: 8602602058901945695}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GoldenBall
   m_TagString: Explosive
   m_Icon: {fileID: 0}
@@ -5119,7 +5119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940434908006153065}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5152,7 +5152,7 @@ GameObject:
   - component: {fileID: 7704325624757716150}
   - component: {fileID: 1655576229598846060}
   - component: {fileID: 4880615728739009163}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5230,7 +5230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5796711538350848603}
   - component: {fileID: 3421011747686891580}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}

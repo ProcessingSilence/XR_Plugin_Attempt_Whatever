@@ -14,15 +14,18 @@ public class GameStats : MonoBehaviour
 
     public TextMesh tboxesDestroyed;
     public int boxesDestroyed;
+
+    public TextMesh thighestScore;
+    public int highestScore;
     
     public Rigidbody BatRB;
 
     // Start is called before the first frame update
     void Awake()
     {
-
         thardestSwing.text = "Hardest bat swing: " + hardestSwing;
         tfarthestBallDist.text = "Farthest ball: " + farthestBallDist;
+        thighestScore.text = "Highest score: " + highestScore;
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class GameStats : MonoBehaviour
         HardestSwing();
         FarthestBall();
         BoxesDestroyed();
+        HighScore();
     }
 
     void HardestSwing()
@@ -55,5 +59,14 @@ public class GameStats : MonoBehaviour
     void BoxesDestroyed()
     {
         tboxesDestroyed.text = "Boxes destroyed: " + boxesDestroyed;
+    }
+
+    void HighScore()
+    {
+        if (highestScore < boxesDestroyed)
+        {
+            highestScore = boxesDestroyed;
+            thighestScore.text = "Highest score: " + highestScore;
+        }
     }
 }

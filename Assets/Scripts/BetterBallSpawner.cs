@@ -19,9 +19,12 @@ public class BetterBallSpawner : MonoBehaviour
     private bool buttonHeld;
 
     private SphereCollider ballCollider;
+  
+
     // Start is called before the first frame update
     void Awake()
     {
+
         _XRGrabInteractable_script = GetComponent<XRGrabInteractable>();
         
         _XRGrabInteractable_script.onActivate.AddListener(SpawnBall);
@@ -36,10 +39,11 @@ public class BetterBallSpawner : MonoBehaviour
             var ballScale = currentBall.localScale;
             float distance = Vector3.Distance(currentBall.position, transform.position);
             currentBall.localScale = (Vector3.one * distance) - new Vector3(0.95f, 0.95f, 0.95f);
+
             ballCollider.enabled = false;
             ballTrail.startWidth = ballScale.x;
         }
-        else if (ballCollider)
+        else if (buttonHeld == false && ballCollider)
         {
             ballCollider.enabled = true;
         }
