@@ -19,7 +19,6 @@ public class BetterBallSpawner : MonoBehaviour
     private bool buttonHeld;
 
     private SphereCollider ballCollider;
-  
 
     // Start is called before the first frame update
     void Awake()

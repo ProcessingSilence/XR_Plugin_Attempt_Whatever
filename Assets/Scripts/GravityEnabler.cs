@@ -1,10 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GravityEnabler : MonoBehaviour
 {
     private Rigidbody objRB;
+
+    private XRGrabInteractable _xrGrabInteractable;
+
+    void Awake()
+    {
+        _xrGrabInteractable = GetComponent<XRGrabInteractable>();
+    }
 
     void Update()
     {
