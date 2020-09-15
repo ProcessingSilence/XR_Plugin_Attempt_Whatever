@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class GoldenBall : MonoBehaviour
 {
-    private Instructions Instructions_script;
+    private Timer Timer_script;
 
 
     private void Awake()
     {
-        Instructions_script = GameObject.FindWithTag("Instructions").GetComponent<Instructions>();
+        Timer_script = GameObject.FindWithTag("Timer").GetComponent<Timer>();
     }
 
     void Update()
     {
-        if (Instructions_script.countdownFlag > 0)
+        if (Timer_script.start > 0)
         {
             Destroy(gameObject.GetComponent<GoldenBall>());
         }
@@ -22,10 +22,10 @@ public class GoldenBall : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Bat") && Instructions_script.countdownFlag < 1)
+        if (other.gameObject.CompareTag("Bat") && Timer_script.start < 1)
         {
             Debug.Log("GOLDEN BALL HIT");
-            Instructions_script.countdownFlag = 1;
+            Timer_script.start = 1;
         }
     }
 }

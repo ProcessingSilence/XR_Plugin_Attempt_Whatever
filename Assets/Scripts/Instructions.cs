@@ -7,17 +7,16 @@ public class Instructions : MonoBehaviour
     public TextMesh[] instructions;
 
     [HideInInspector]
-    public int countdownFlag;  
+    public int countdownFlag;
+
+    public GameObject mainCubeCollection;
+    public GameObject timerObj;
     
-    private string[] instructionsText = new string [6] 
+    private string[] instructionsText = new string [3] 
     {
         "Hold down trigger to generate a bomb, then whack the bomb with the bat.",
         "Destroy as many cubes as you can before time runs out.",
-        "Hit the golden ball behind you to begin.",
-        
-        "3",
-        "2",
-        "1",      
+        "Hit the golden ball behind you to begin.", 
     };
     // Start is called before the first frame update
     void Start()
@@ -34,24 +33,10 @@ public class Instructions : MonoBehaviour
         if (countdownFlag == 1)
         {
             countdownFlag = 2;
-            StartCoroutine(CountdownTimer());
+            DeleteText();     
+            timerObj.SetActive(true);
+            Destroy(gameObject);
         }
-    }
-
-    IEnumerator CountdownTimer()
-    {
-        DeleteText();
-        
-        yield return new WaitForSecondsRealtime(1);
-        for (int j = 3; j < 6; j++)
-        {
-            instructions[j-3].text = instructionsText[j];
-            yield return new WaitForSecondsRealtime(1);
-        }
-        DeleteText();
-        instructions[1].text = "GO";
-        yield return new WaitForSecondsRealtime(1);
-        DeleteText();
     }
 
     void DeleteText()

@@ -38,6 +38,7 @@
           <e p="GravityEnabler.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
           <e p="PedestalMove.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
           <e p="TrailEnabler.cs" t="Include" />
         </e>
         <e p="TutorialScenes" t="Include">
