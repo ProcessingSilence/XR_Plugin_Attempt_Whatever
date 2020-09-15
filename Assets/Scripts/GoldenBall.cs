@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoldenBall : MonoBehaviour
 {
     private Timer Timer_script;
-
+    public float distance;
 
     private void Awake()
     {
@@ -16,7 +16,14 @@ public class GoldenBall : MonoBehaviour
     {
         if (Timer_script.start > 0)
         {
+            gameObject.GetComponent<Rigidbody>().useGravity = true;
             Destroy(gameObject.GetComponent<GoldenBall>());
+        }
+
+        distance = Vector3.Distance(Vector3.zero, transform.position);
+        if (distance > 20)
+        {
+            Destroy(gameObject);
         }
     }
 

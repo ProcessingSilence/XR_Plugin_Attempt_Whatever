@@ -101,20 +101,23 @@ public class Explosive : MonoBehaviour
 
     IEnumerator Explosion()
     {
+        Destroy(_sphereCollider);
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, explosiveRadius);
         foreach (Collider hit in hitColliders)
         {
-            var hitRB = hit.GetComponent<Rigidbody>();
-            if (hitRB && !hitRB.gameObject.CompareTag("Bat"))
+            if (!hit.gameObject.CompareTag("GoldenBall") || !hit.gameObject.CompareTag("Bat"))
             {
+                var hitRB = hit.GetComponent<Rigidbody>();
+
                 hitRB.isKinematic = false;
                 hitRB.useGravity = true;
                 hitRB.GetComponent<BoxCollider>().enabled = false;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);
                 _audioSource.clip = explosionSound;
                 _audioSource.Play();
+                
             }
-        }
+        }                 
         Destroy(rb);       
         yield return new WaitForSecondsRealtime(3f);
         Destroy(gameObject);
