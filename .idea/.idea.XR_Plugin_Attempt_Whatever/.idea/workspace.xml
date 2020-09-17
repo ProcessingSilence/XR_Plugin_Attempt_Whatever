@@ -17,7 +17,7 @@
               <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeCounter.cs">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="416">
-                    <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                    <caret line="28" selection-start-line="28" selection-end-line="28" />
                     <folding>
                       <marker date="1600309710172" expanded="false" signature="6:78" ph="..." />
                       <marker date="1600309710172" expanded="true" signature="120:583" ph="{...}" />
@@ -196,7 +196,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Explosive.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
-              <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
               <folding>
                 <marker date="1600310093692" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600310093692" expanded="true" signature="118:4222" ph="{...}" />
@@ -228,7 +228,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
               <folding>
                 <marker date="1600310454832" expanded="false" signature="6:78" ph="..." />
                 <marker date="1600310454832" expanded="true" signature="114:3390" ph="{...}" />
@@ -395,12 +395,12 @@
       <workItem from="1599967623744" duration="63000" />
       <workItem from="1600034329964" duration="42606000" />
       <workItem from="1600135412794" duration="9848000" />
-      <workItem from="1600294617411" duration="3050000" />
+      <workItem from="1600294617411" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61212000" />
+    <option name="totallyTimeSpent" value="61811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,7 +745,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeCounter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <marker date="1600309710172" expanded="false" signature="6:78" ph="..." />
             <marker date="1600309710172" expanded="true" signature="120:583" ph="{...}" />
@@ -760,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Explosive.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
-          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
           <folding>
             <marker date="1600310093692" expanded="false" signature="6:78" ph="..." />
             <marker date="1600310093692" expanded="true" signature="118:4222" ph="{...}" />
@@ -790,7 +790,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
           <folding>
             <marker date="1600310454832" expanded="false" signature="6:78" ph="..." />
             <marker date="1600310454832" expanded="true" signature="114:3390" ph="{...}" />
