@@ -105,14 +105,12 @@ public class Explosive : MonoBehaviour
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, explosiveRadius);
         foreach (Collider hit in hitColliders)
         {
-            if (!hit.gameObject.CompareTag("GoldenBall") || !hit.gameObject.CompareTag("Bat"))
+            if (!hit.gameObject.CompareTag("GoldenBall") || !hit.gameObject.CompareTag("Bat") || !hit.gameObject.CompareTag("Platform"))
             {
                 var hitRB = hit.GetComponent<Rigidbody>();
                 hitRB.isKinematic = false;
                 hitRB.useGravity = true;
-                var hitCollider = hitRB.GetComponent<BoxCollider>();
-                if (hitCollider)
-                    hitCollider.enabled = false;
+                hitRB.gameObject.layer = 12;
                 hitRB.AddExplosionForce(force, transform.position, explosiveRadius, 1f, ForceMode.Impulse);              
             }
         }                 

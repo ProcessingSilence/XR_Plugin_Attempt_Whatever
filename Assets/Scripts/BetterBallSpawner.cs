@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class BetterBallSpawner : MonoBehaviour
 {
     public GameObject ball;
+    public Transform centerOfBat;
     private Transform currentBall;
 
     public Transform spawnPoint;
@@ -19,6 +20,7 @@ public class BetterBallSpawner : MonoBehaviour
     private bool buttonHeld;
 
     private SphereCollider ballCollider;
+    
 
     // Start is called before the first frame update
     void Awake()
@@ -36,7 +38,7 @@ public class BetterBallSpawner : MonoBehaviour
         if (buttonHeld)
         {
             var ballScale = currentBall.localScale;
-            float distance = Vector3.Distance(currentBall.position, transform.position);
+            float distance = Vector3.Distance(currentBall.position, centerOfBat.position);
             currentBall.localScale = (Vector3.one * distance) - new Vector3(0.95f, 0.95f, 0.95f);
 
             ballCollider.enabled = false;

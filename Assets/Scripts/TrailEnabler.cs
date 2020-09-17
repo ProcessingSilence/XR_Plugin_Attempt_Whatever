@@ -18,8 +18,6 @@ public class TrailEnabler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-        trailRenderer.enabled = BatRB.velocity.magnitude > 4f;
+        trailRenderer.enabled = BatRB.velocity.magnitude > highestVelocity;
     }
 }

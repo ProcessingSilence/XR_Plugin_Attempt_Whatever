@@ -10,6 +10,8 @@ TagManager:
   - Instructions
   - Timer
   - GoldenBall
+  - Cube
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - BallSpawner
   - Hands
   - GoldenBall
-  - 
+  - Cube
   - 
   - 
   - 

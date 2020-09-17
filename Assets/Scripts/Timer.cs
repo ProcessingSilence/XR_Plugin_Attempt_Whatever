@@ -23,7 +23,8 @@ public class Timer : MonoBehaviour
     public GameStats GameStats_script;
 
     public GameObject goldenBall;
-
+    private Vector3 goldenBallPos;
+    
     private AudioSource _audioSource;
 
     public AudioClip click;
@@ -31,7 +32,7 @@ public class Timer : MonoBehaviour
     void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
-        GameStats_script = GameObject.FindWithTag("GameStats").gameObject.GetComponent<GameStats>();
+        goldenBallPos = GameObject.FindWithTag("GoldenBall").transform.position;
     }
 
     // Update is called once per frame
@@ -93,7 +94,7 @@ public class Timer : MonoBehaviour
             _audioSource.clip = ding;
             _audioSource.Play();
             yield return new WaitForSecondsRealtime(1);
-            Instantiate(goldenBall, new Vector3(1.25f, 1, 0), Quaternion.identity);
+            Instantiate(goldenBall, goldenBallPos, Quaternion.identity);
         }
 
 
