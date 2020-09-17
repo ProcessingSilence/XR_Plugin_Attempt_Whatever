@@ -43,7 +43,7 @@ public class GameStats : MonoBehaviour
         if (currentVelocity > hardestSwing)
         {
             hardestSwing = currentVelocity;
-            thardestSwing.text = "Hardest bat swing: " + hardestSwing;
+            thardestSwing.text = "Hardest paddle swing: " + hardestSwing;
         }
     }
 

@@ -1031,7 +1031,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403217731}
-  m_Text: Hold down trigger to generate a bomb, then whack the bomb with the bat.
+  m_Text: Hold down trigger to generate a bomb, then whack the bomb with the paddle.
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3867,7 +3867,7 @@ PrefabInstance:
     - target: {fileID: 2418113003728957343, guid: e814498e274bf0143a0bee2e5a36573b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 2418113003728957343, guid: e814498e274bf0143a0bee2e5a36573b,
         type: 3}
@@ -4452,8 +4452,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 0.03529412, g: 0.054901965, b: 0.75294125, a: 1}
+      key1: {r: 0.03529412, g: 0.054901965, b: 0.75294125, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
